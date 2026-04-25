@@ -1,0 +1,3 @@
+model,batch_size,num_epochs,gpu_type,run_number,total_training_time_sec,avg_time_per_epoch_sec,inference_latency_single_img_sec,inference_latency_batch_sec,throughput_img_per_sec,gpu_memory_allocated_MB,gpu_memory_peak_MB,validation_accuracy_pct,f1_score
+CustomCNN,64,20,NVIDIA GeForce RTX 3090,1,512.21,20.21,0.0015,0.0207,3094.93,434.1,2536.37,91.52,91.44
+CustomCNN,64,20,NVIDIA GeForce RTX 3090,2,508.47,20.12,0.0018,0.0209,3063.39,470.51,2571.87,88.3,88.22
